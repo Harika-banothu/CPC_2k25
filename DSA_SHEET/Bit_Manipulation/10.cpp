@@ -1,4 +1,4 @@
-//Swap every consecutive odd and even positioned bit in a number
+//Swap every consecutive odd and even positioned bit in a number 
 unsigned int swapBits(unsigned int n)
     {
     	// Your code here
