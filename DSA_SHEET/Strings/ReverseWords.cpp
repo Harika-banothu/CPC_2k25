@@ -1,7 +1,5 @@
 //Reverse words in a given string
-class Solution {
-public:
-    string reverseWords(string s) {
+string reverseWords(string s) {
         int len=s.size()-1;
         string temp="";
         string ans="";
@@ -21,5 +19,4 @@ public:
         if(ans[ans.size()-1]==' ')
             ans.pop_back();
         return ans;
-    }
-};
+}
