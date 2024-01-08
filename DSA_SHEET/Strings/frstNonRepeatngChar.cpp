@@ -1,7 +1,5 @@
 //Given a string find its first non-repeating character
-class Solution {
-public:
-    int firstUniqChar(string s) {
+int firstUniqChar(string s) {
         unordered_map<char,int>m;
         for(int i=0;i<s.size();i++){
             m[s[i]]++;
@@ -13,6 +11,5 @@ public:
         
         return -1;
             
-        
-    }
-};
+ }
+
